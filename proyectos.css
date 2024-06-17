@@ -1,0 +1,48 @@
+.galeria-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;/*distribuir los elementos*/
+}
+
+.proyectos {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+    width: calc(33.333% - 1rem);/*ajustar ancho de las cajas*/
+    box-sizing: border-box;/*padding no afecte el ancho total*/
+}
+
+.proyectos:hover {
+    transform: scale(1.05);
+}
+
+.proyectos img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.proyectos h3 {
+    color: #333;
+    margin: 1rem 0;
+}
+
+.proyectos p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.proyectos a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.proyectos a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+
+    .container-intro,
+    .container-sobre-nosotros,
+    .container-experiencia,
+    .container-estudios,
+    .container-contacto {
+        padding: 1rem;
+    }
+
+    .galeria-proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyectos {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .galeria-proyectos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .proyectos {
+        flex: 1 1 calc(33.333% - 2rem);
+        max-width: calc(33.333% - 2rem);
+    }
+}

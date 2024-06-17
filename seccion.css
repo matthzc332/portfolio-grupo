@@ -1,0 +1,51 @@
+.sobre-nosotros, .experiencia, .estudios, .contacto {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.intro {
+   background-image:linear-gradient(rgba(218, 165, 32, 0.689),rgba(255, 217, 0, 0.685), rgba(255, 255, 255, 0.767));
+   border: 5px solid  rgba(0, 0, 0, 0.498);
+   margin-bottom: 2rem;
+   padding: 2rem;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-intro,
+.container-sobre-nosotros,
+.container-experiencia,
+.container-estudios,
+.container-contacto {
+    max-width: 800px;
+    margin: auto;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background-image:linear-gradient(rgba(218, 165, 32, 0.689),rgba(255, 217, 0, 0.685), rgba(255, 255, 255, 0.767));
+  
+}
+
+.aling-items-stretch {
+    align-items: stretch;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.aling-intem-center {
+    align-items: center;
+}
